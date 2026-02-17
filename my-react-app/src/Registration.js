@@ -5,8 +5,7 @@ const Registration = () => {
   const [form, setForm] = useState({
     name: "",
     email: "",
-    password: "",
-    confirmPassword: ""
+    password: ""
   });
 
   const [errors, setErrors] = useState({});

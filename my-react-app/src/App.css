@@ -1,104 +1,38 @@
-/* Reset Default Styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+.App {
+  text-align: center;
 }
 
-/* Body Styling */
-body {
-  background-color: #0b0b0b;
-  padding-top: 100px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-/* Header Styling */
-header {
-  background-color: #1e3a8a;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-/* Login Form Container */
-form {
-  width: 350px;
-  margin: 50px auto;
-  padding: 30px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+.App-link {
+  color: #61dafb;
 }
 
-/* Form Heading */
-form h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #1e3a8a;
-}
-
-/* Input Group */
-form div {
-  margin-bottom: 15px;
-}
-
-/* Labels */
-label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: 600;
-  color: #0b0b0b;
-}
-
-/* Input Fields */
-input {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ede9e9;
-  font-size: 14px;
-}
-
-/* Input Focus Effect */
-input:focus {
-  outline: none;
-  border-color: #1e3a8a;
-}
-
-/* Button Styling */
-button {
-  width: 100%;
-  padding: 12px;
-  background-color: #1e3a8a;
-  color: rgb(237, 229, 229);
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* Button Hover */
-button:hover {
-  background-color: #162c6b;
-}
-
-/* Footer Styling */
-footer {
-  margin-top: 60px;
-  background-color: #1e3a8a;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-.error {
-  color: red;
-  font-size: 13px;
-  margin-top: 4px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
